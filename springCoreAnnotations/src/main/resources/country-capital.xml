@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="(link unavailable)"
+       xmlns:xsi="(link unavailable)"
+       xmlns:context="(link unavailable)"
+       xsi:schemaLocation="(link unavailable)
+       (link unavailable)
+       (link unavailable)
+       (link unavailable)">
+  
+  <context:annotation-config/>
+  <context:property-placeholder location="classpath:application.properties"/>
+  
+  <bean id="countryCapitalConfig" class="com.example.CountryCapitalConfig"/>
+  <bean id="countryCapitalService" class="com.example.CountryCapitalService"/>
+</beans>
