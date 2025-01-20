@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="myService1" class="inversionOfControlXml.School">
+        <property name="regNumber" value="102" />
+        <property name="name" value="Kimaanya" />
+
+    </bean>
+        <bean id="address" class="constructorInjectionDependency.Address">
+        <property name="district" value="Kampala" />
+        <property name="county" value="Makindye" />
+
+    </bean>
+   <bean id="person" class="constructorInjectionDependency.Person">
+        <property name="age" value="32" />
+        <property name="name" value="Nanfuka" />
+        <!--<property name="address" ref = "address"/>-->
+        <constructor-arg ref="address"/>
+        
+    </bean>
+        <bean id="mtn" class="dependencyInjectionRevision.MTN">
+        </bean>
+        <bean id="airtel" class="dependencyInjectionRevision.Airtel">
+        </bean>
+        <bean id="sim" class="dependencyInjectionRevision.Airtel">
+        </bean>
+</beans>
