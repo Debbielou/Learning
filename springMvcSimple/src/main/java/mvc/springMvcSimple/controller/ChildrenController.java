@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
+@RequestMapping("/so") // example of RequestMapping at class level
 public class ChildrenController {
 	
 	@ResponseBody
