@@ -25,5 +25,12 @@ public class PersonController {
 	    model.addAttribute("message", hey);
 	    return "greeting"; 
 	}
+	
+	@RequestMapping(value = "/Yomena", method = RequestMethod.GET)
+	public String drive(Model model) {
+	    String car = "Yomena drives so fast.";
+	    model.addAttribute("message", car);
+	    return "drive"; 
+	}
 
 }
