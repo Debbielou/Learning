@@ -7,12 +7,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class CafeController {
 	
-	@RequestMapping("/cafe")
-	public String showWelcomePage() {
+//	@RequestMapping("/cafe")
+//	public String showWelcomePage() {
 	
-	  return "welcome-page";
+//	  return "welcome-page";
 		
-	}
+//	}
 	
 //	@RequestMapping("/cafe")
 //	public String showWelcomePage(Model model) {
