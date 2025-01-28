@@ -9,7 +9,7 @@ public class CafeController {
 	
 //	@RequestMapping("/cafe")
 //	public String showWelcomePage() {
-	
+//	
 //	  return "welcome-page";
 		
 //	}
