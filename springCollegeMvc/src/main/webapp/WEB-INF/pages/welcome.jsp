@@ -8,13 +8,13 @@
     <h1 align="center">College Registration</h1>
     <form action="register" method="post">
         <label for="collegeId">College ID:</label>
-        <input type="text" id="collegeId" name="collegeId" required><br><br>
+        <input type="text" id="id" name="id" value="${college.id}" required><br><br>
         
         <label for="collegeName">College Name:</label>
-        <input type="text" id="collegeName" name="collegeName" required><br><br>
+        <input type="text" id="name" name="name" value="${college.name}" required><br><br>
         
         <label for="location">Location:</label>
-        <input type="text" id="location" name="location" required><br><br>
+        <input type="text" id="location" name="location" value="${college.location}" required><br><br>
         
         <input type="submit" value="Register">
     </form>

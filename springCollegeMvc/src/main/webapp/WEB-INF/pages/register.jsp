@@ -47,6 +47,7 @@
 <body>
     <div class="container">
         <h1>Registration Successful!</h1>
+        <div> "${myCollege.name}"</div>
         <p>Thank you for registering. Your college registration has been successfully completed.</p>
         <a href="/" class="button">Go to Homepage</a>
     </div>

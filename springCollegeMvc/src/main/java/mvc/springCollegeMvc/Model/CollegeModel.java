@@ -6,6 +6,11 @@ public class CollegeModel {
 	private String name;
 	private String location;
 	
+	
+	
+	public CollegeModel() {
+	}
+
 	public CollegeModel(int id, String name, String location) {
 		this.id = id;
 		this.name = name;

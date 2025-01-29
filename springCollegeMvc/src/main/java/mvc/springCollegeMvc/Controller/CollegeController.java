@@ -5,6 +5,7 @@ import java.util.List;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
@@ -26,8 +27,10 @@ public class CollegeController {
 	    }
 
 	    @RequestMapping(value = "/register", method = RequestMethod.POST)
-	    public String submitRegistration(Model model) {
-	        // Add any processing logic here if needed
+	    public String submitRegistration(@ModelAttribute("college") CollegeModel college, Model model) {
+	        
+	    	System.out.println("SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS" + college);
+	    	model.addAttribute("myCollege", college);
 	        return "register";
 	    }
 	    
@@ -41,6 +44,6 @@ public class CollegeController {
 	        colleges.add(new CollegeModel(5, "Victoria University", "Kampala"));
 
 	        model.addAttribute("colleges", colleges);
-	        return "colleges"; // This will look for /WEB-INF/views/colleges.jsp
+	        return "colleges"; 
 	    }
 	}
