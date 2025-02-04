@@ -62,7 +62,7 @@ public class EmployeeController {
 	        return "update_form";
 	    }
 	 
-	    @RequestMapping(value = "/delete/{id}", method = RequestMethod.GET)
+	    @RequestMapping(value = "/delete/{id}", method = RequestMethod.DELETE)
 	    public String deleteEmployee(@PathVariable("id") int id, Model model) {
 	        employeeService.removeEmployee(id);
 	        String message = "Employee has been deleted successfully.";
