@@ -1,8 +1,7 @@
-mvc\springMvcDatabase\Controller\EmployerController.class
-mvc\springMvcDatabase\DAO\EmployerDAO.class
-mvc\springMvcDatabase\Service\EmployerService.class
-mvc\springMvcDatabase\Model\Employer.class
-mvc\springMvcDatabase\App.class
-mvc\springMvcDatabase\Model\Employee.class
-mvc\springMvcDatabase\Service\EmployerServiceImpl.class
-mvc\springMvcDatabase\DAO\EmployerDAOImpl.class
+mvc\springMvcDatabase\model\Employee.class
+mvc\springMvcDatabase\controller\App.class
+mvc\springMvcDatabase\dao\EmployeeDAOImpl.class
+mvc\springMvcDatabase\service\EmployeeServiceImpl.class
+mvc\springMvcDatabase\dao\EmployeeDAO.class
+mvc\springMvcDatabase\controller\EmployeeController.class
+mvc\springMvcDatabase\service\EmployeeService.class

@@ -2,16 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>College Registration</title>
+    <title>Employee Registration</title>
 </head>
 <body>
-    <h1 align="center">College Registration</h1>
+    <h1 align="center">Employee Registration</h1>
     <form action="submitRegistration" method="post">
-        <label for="name">Employer Name:</label>
+        <label for="name">Employee Name:</label>
         <input type="text" id="name" name="name" required><br><br>
         
-        <label for="address">Address:</label>
-        <input type="text" id="address" name="address" required><br><br>
+        <label for="age">Age:</label>
+        <input type="text" id="age" name="age" required><br><br>
         
         <input type="submit" value="Register">
     </form>
