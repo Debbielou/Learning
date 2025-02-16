@@ -5,3 +5,4 @@ mvc\springRestApiValidation\App.class
 mvc\springRestApiValidation\service\EmployeeServiceImpl.class
 mvc\springRestApiValidation\dao\EmployeeInterImpl.class
 mvc\springRestApiValidation\dao\EmployeeInter.class
+mvc\springRestApiValidation\EmployeeValidator.class
